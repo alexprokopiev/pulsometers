@@ -1,0 +1,33 @@
+.reviews {
+  padding-bottom: 40px;
+  &__item {
+    display: flex;
+    padding: 70px 0 30px;
+  }
+  &__img {
+    width: 169px;
+    height: 169px;
+    margin-right: 60px;
+  }
+  &__block {
+    max-width: 650px;
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0d0d0d;
+  }
+  &__achievs {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+  }
+  &__text {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0d0d0d;
+  }
+}

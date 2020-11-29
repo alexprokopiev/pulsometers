@@ -1,0 +1,28 @@
+@import "bootstrap-reboot.min";
+@import "fonts";
+@import "pageup.min";
+@import "slick";
+@import "mixins";
+@import "variables";
+@import "animations";
+* {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "promo";
+@import "header";
+@import "buttons";
+@import "benefits";
+@import "titles";
+@import "consultation";
+@import "media";
+@import "forms";
+@import "carousel";
+@import "catalog";
+@import "reviews";
+@import "footer";
+@import "modal";
+@import "pageup";

@@ -1,0 +1,400 @@
+@media (max-width: 1199px) {
+  .container {
+    max-width: 850px;
+  }
+  .catalog {
+    .catalog-item {
+      width: 275px;
+      img {
+        height: 160px;
+      }
+      &__descr {
+        font-size: 13px;
+      }
+      &__old-price {
+        font-size: 13px;
+      }
+      &__price {
+        font-size: 18px;
+      }
+      li {
+        font-size: 13px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .button {
+    &_mini {
+      width: 110px;
+    }
+  }
+  .footer {
+    .footer__info {
+      width: 350px;
+      height: 200px;
+      padding: 30px 0;
+    }
+    .footer__addr {
+      margin-bottom: 25px;
+    }
+    .footer__phone {
+      margin-bottom: 25px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+  .promo {
+    min-height: 630px;
+    padding-bottom: 60px;
+    &__wrapper {
+      margin-top: 60px;
+      align-items: center;
+    }
+  }
+  .benefits {
+    min-height: 420px;
+    padding: 60px 0;
+    &__wrapper {
+      margin: 30px 0 0;
+    }
+    &__item {
+      width: 220px;
+    }
+    &__descr {
+      margin-top: 20px;
+    }
+    &__text {
+      margin-top: 15px;
+      font-size: 13px;
+    }
+  }
+  .title {
+    &_left {
+      font-size: 33px;
+    }
+  }
+  .consultation {
+    min-height: 610px;
+    padding: 60px 0;
+    &__descr {
+      margin-top: 40px;
+    }
+  }
+  .carousel {
+    .container {
+      .carousel__inner {
+        width: 600px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .catalog {
+    .catalog-item {
+      width: 225px;
+      min-height: 415px;
+      &__subtitle {
+        font-size: 14px;
+      }
+      &__descr {
+        font-size: 10px;
+      }
+      &__old-price {
+        font-size: 12px;
+      }
+      &__price {
+        font-size: 14px;
+      }
+      li {
+        font-size: 10px;
+      }
+    }
+  }
+  .button {
+    &_mini {
+      width: 90px;
+      height: 30px;
+      font-size: 12px;
+    }
+  }
+  .reviews {
+    .container {
+      .reviews {
+        &__text {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
+  .header {
+    &__logo {
+      width: 130px;
+    }
+    &__official {
+      font-size: 12px;
+      span {
+        font-size: 14px;
+      }
+    }
+    &__phone {
+      font-size: 14px;
+    }
+    .button {
+      width: 120px;
+      font-size: 10px;
+    }
+  }
+  .promo {
+    min-height: 525px;
+    padding-bottom: 40px;
+    &__wrapper {
+      margin-top: 40px;
+    }
+    &__subheader {
+      margin-top: 10px;
+    }
+    &__icons {
+      margin-top: 40px;
+    }
+  }
+  .button_main {
+    margin-top: 40px;
+    width: 200px;
+    font-size: 12px;
+  }
+  .benefits {
+    padding: 40px 0;
+    min-height: 335px;
+    &__wrapper {
+      margin: 20px 0 0;
+    }
+    &__item {
+      width: 150px;
+    }
+    &__descr {
+      margin-top: 5px;
+      font-size: 13px;
+    }
+    &__text {
+      margin-top: 8px;
+      font-size: 10px;
+    }
+  }
+  .consultation {
+    min-height: 520px;
+    padding: 40px 0;
+    &__descr {
+      margin-top: 30px;
+      font-size: 16px;
+    }
+  }
+  .title {
+    &_left {
+      font-size: 23px;
+    }
+  }
+  .carousel {
+    .container {
+      .carousel__inner {
+        width: 400px;
+      }
+    }
+  }
+  .catalog {
+    .container {
+      .catalog {
+        &__tab {
+          font-size: 16px;
+        }
+        &__content {
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+  .reviews {
+    .container {
+      .reviews {
+        &__item {
+          padding: 40px 0 20px;
+        }
+        &__img {
+          width: 100px;
+          height: 100px;
+          margin-right: 30px;
+        }
+        &__text {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  .footer {
+    max-height: 350px;
+    overflow: hidden;
+    .footer__info {
+      width: 250px;
+      height: 145px;
+      padding: 20px 0;
+    }
+    .footer__addr {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+    .footer__phone {
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+    .footer__social-icon {
+      padding: 0 3px;
+      img {
+        height: 35px;
+        width: 35px;
+      }
+    }
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 300px;
+  }
+  .header {
+    flex-direction: column;
+    &__official {
+      margin-top: 12px;
+      display: flex;
+      font-size: 10px;
+      span {
+        margin-left: 15px;
+        line-height: 15px;
+        font-size: 13px;
+      }
+    }
+    &__contacts {
+      margin-top: 10px;
+      flex-direction: row;
+      justify-content: space-between;
+      a {
+        font-size: 13px;
+        line-height: 30px;
+        margin-right: 30px;
+      }
+    }
+  }
+  .promo {
+    min-height: 495px;
+    &__header {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    &__subheader {
+      margin-top: 0;
+      font-size: 14px;
+      line-height: 14px;
+    }
+    &__icons {
+      margin-top: 25px;
+      width: 100%;
+    }
+    &__icon {
+      font-size: 12px;
+      img {
+        margin: 0 auto 10px;
+      }
+    }
+  }
+  .title {
+    font-size: 22px;
+    &_left {
+      font-size: 14px;
+    }
+  }
+  .benefits {
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__item {
+      width: 100%;
+      margin-top: 15px;
+    }
+    &__text {
+      margin-top: 4px;
+    }
+  }
+  .consultation {
+    min-height: 480px;
+    &__descr {
+      font-size: 12px;
+    }
+  }
+  .carousel {
+    .container {
+      .carousel__inner {
+        width: 250px;
+      }
+    }
+  }
+  .catalog {
+    .container {
+      .catalog {
+        &__tab {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  .reviews {
+    .container {
+      .reviews {
+        &__item {
+          flex-direction: column;
+          padding: 30px 0 10px;
+          text-align: center;
+        }
+        &__img {
+          margin: 0 auto;
+        }
+        &__name {
+          margin-top: 20px;
+        }
+        &__text {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+  .overlay .modal {
+    width: 250px;
+    min-height: 360px;
+    padding: 20px;
+    &__close {
+      right: 5px;
+      font-size: 30px;
+      line-height: 25px;
+    }
+    &__subtitle {
+      font-size: 13px;
+    }
+    &__descr {
+      margin-top: 5px;
+      font-size: 10px;
+    }
+  }
+  .overlay .modal {
+    .feed-form {
+      width: 210px;
+    }
+    .button_submit {
+      font-size: 14px;
+    }
+  }
+}
